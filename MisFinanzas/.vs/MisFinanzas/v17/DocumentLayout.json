@@ -1,0 +1,210 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|c:\\users\\gaelm\\source\\repos\\misfinanzas\\misfinanzas\\inversiones.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|solutionrelative:misfinanzas\\inversiones.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|c:\\users\\gaelm\\source\\repos\\misfinanzas\\misfinanzas\\inversiones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|solutionrelative:misfinanzas\\inversiones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|c:\\users\\gaelm\\source\\repos\\misfinanzas\\misfinanzas\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|solutionrelative:misfinanzas\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|c:\\users\\gaelm\\source\\repos\\misfinanzas\\misfinanzas\\conexiones.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|solutionrelative:misfinanzas\\conexiones.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|c:\\users\\gaelm\\source\\repos\\misfinanzas\\misfinanzas\\styles\\css_cheatsheet2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|solutionrelative:misfinanzas\\styles\\css_cheatsheet2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|c:\\users\\gaelm\\source\\repos\\misfinanzas\\misfinanzas\\analisistendencias.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|solutionrelative:misfinanzas\\analisistendencias.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|c:\\users\\gaelm\\source\\repos\\misfinanzas\\misfinanzas\\reportes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|solutionrelative:misfinanzas\\reportes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|c:\\users\\gaelm\\source\\repos\\misfinanzas\\misfinanzas\\styles\\css_cheatsheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|solutionrelative:misfinanzas\\styles\\css_cheatsheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|c:\\users\\gaelm\\source\\repos\\misfinanzas\\misfinanzas\\reportes.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|solutionrelative:misfinanzas\\reportes.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|c:\\users\\gaelm\\source\\repos\\misfinanzas\\misfinanzas\\ingresos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|solutionrelative:misfinanzas\\ingresos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|c:\\users\\gaelm\\source\\repos\\misfinanzas\\misfinanzas\\analisistendencias.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1781AE8D-4A12-4556-B3B0-594F6498BDB1}|MisFinanzas\\MisFinanzas.vbproj|solutionrelative:misfinanzas\\analisistendencias.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AnalisisTendencias.aspx.vb",
+              "DocumentMoniker": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\AnalisisTendencias.aspx.vb",
+              "RelativeDocumentMoniker": "MisFinanzas\\AnalisisTendencias.aspx.vb",
+              "ToolTip": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\AnalisisTendencias.aspx.vb",
+              "RelativeToolTip": "MisFinanzas\\AnalisisTendencias.aspx.vb",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-07T08:16:14.552Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnalisisTendencias.aspx",
+              "DocumentMoniker": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\AnalisisTendencias.aspx",
+              "RelativeDocumentMoniker": "MisFinanzas\\AnalisisTendencias.aspx",
+              "ToolTip": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\AnalisisTendencias.aspx",
+              "RelativeToolTip": "MisFinanzas\\AnalisisTendencias.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-07T08:03:13.413Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reportes.aspx",
+              "DocumentMoniker": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Reportes.aspx",
+              "RelativeDocumentMoniker": "MisFinanzas\\Reportes.aspx",
+              "ToolTip": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Reportes.aspx",
+              "RelativeToolTip": "MisFinanzas\\Reportes.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-07T08:15:34.626Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inversiones.aspx.vb",
+              "DocumentMoniker": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Inversiones.aspx.vb",
+              "RelativeDocumentMoniker": "MisFinanzas\\Inversiones.aspx.vb",
+              "ToolTip": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Inversiones.aspx.vb",
+              "RelativeToolTip": "MisFinanzas\\Inversiones.aspx.vb",
+              "ViewState": "AQIAAJsAAAAAAAAAAADwv6IAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-07T09:41:18.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inversiones.aspx",
+              "DocumentMoniker": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Inversiones.aspx",
+              "RelativeDocumentMoniker": "MisFinanzas\\Inversiones.aspx",
+              "ToolTip": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Inversiones.aspx",
+              "RelativeToolTip": "MisFinanzas\\Inversiones.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-07T09:41:11.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.aspx",
+              "DocumentMoniker": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Index.aspx",
+              "RelativeDocumentMoniker": "MisFinanzas\\Index.aspx",
+              "ToolTip": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Index.aspx",
+              "RelativeToolTip": "MisFinanzas\\Index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-07T09:36:30.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Conexiones.vb",
+              "DocumentMoniker": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Conexiones.vb",
+              "RelativeDocumentMoniker": "MisFinanzas\\Conexiones.vb",
+              "ToolTip": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Conexiones.vb",
+              "RelativeToolTip": "MisFinanzas\\Conexiones.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-07T09:29:04.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CSS_cheatsheet.css",
+              "DocumentMoniker": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Styles\\CSS_cheatsheet.css",
+              "RelativeDocumentMoniker": "MisFinanzas\\Styles\\CSS_cheatsheet.css",
+              "ToolTip": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Styles\\CSS_cheatsheet.css",
+              "RelativeToolTip": "MisFinanzas\\Styles\\CSS_cheatsheet.css",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-07T09:12:57.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CSS_cheatsheet2.css",
+              "DocumentMoniker": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Styles\\CSS_cheatsheet2.css",
+              "RelativeDocumentMoniker": "MisFinanzas\\Styles\\CSS_cheatsheet2.css",
+              "ToolTip": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Styles\\CSS_cheatsheet2.css",
+              "RelativeToolTip": "MisFinanzas\\Styles\\CSS_cheatsheet2.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-07T09:12:55.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ingresos.aspx",
+              "DocumentMoniker": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Ingresos.aspx",
+              "RelativeDocumentMoniker": "MisFinanzas\\Ingresos.aspx",
+              "ToolTip": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Ingresos.aspx",
+              "RelativeToolTip": "MisFinanzas\\Ingresos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-07T09:10:46.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Reportes.aspx.vb",
+              "DocumentMoniker": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Reportes.aspx.vb",
+              "RelativeDocumentMoniker": "MisFinanzas\\Reportes.aspx.vb",
+              "ToolTip": "C:\\Users\\gaelm\\source\\repos\\MisFinanzas\\MisFinanzas\\Reportes.aspx.vb",
+              "RelativeToolTip": "MisFinanzas\\Reportes.aspx.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-07T08:16:20.811Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

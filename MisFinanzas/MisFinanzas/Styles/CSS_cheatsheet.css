@@ -1,0 +1,64 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: none;
+}
+
+.input-group-text {
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+.container {
+    max-width: 600px;
+}
+
+/* Estilos para los campos de entrada con la etiqueta encima */
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px; /* Deja espacio a la izquierda para la etiqueta */
+    font-size: 16px;
+}
+
+.input-label {
+    position: absolute;
+    top: 10px; /* La etiqueta se coloca un poco arriba */
+    left: 40px; /* Igual que el padding-left en el input para que no se sobrepongan */
+    font-size: 14px;
+    color: #aaa;
+    pointer-events: none; /* Para que no interfiera con la interacción del input */
+    transition: 0.3s; /* Animación suave */
+}
+
+.input-field:focus + .input-label,
+.input-field:not(:placeholder-shown) + .input-label {
+    top: -10px; /* Cuando el input tiene el foco o no está vacío, la etiqueta sube */
+    font-size: 12px;
+    color: #333; /* Cambia el color cuando está activo */
+}

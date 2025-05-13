@@ -1,0 +1,153 @@
+﻿
+Module Module_General
+    Public Sub MuestraMensaje(ByRef _page As Page, ByRef title As String, ByRef _msj As String, ByRef _icon As String)
+        Dim script As String = "Swal.fire({title: '" & title & "', html: '" & _msj & "', icon: '" & _icon & "'});"
+        _page.ClientScript.RegisterStartupScript(_page.GetType(), "alerta", script, True)
+    End Sub
+
+    Public Sub graficaIngresosEgresos(ByRef title As String, ByRef _page As Page, ByRef fecha As String, ByRef ingresos As String, ByRef egresos As String)
+        Dim script As String = ""
+        script += " Highcharts.chart('container', { " & vbCrLf
+        script += "     chart: { " & vbCrLf
+        script += "         zooming: { " & vbCrLf
+        script += "             type: 'xy' " & vbCrLf
+        script += "         } " & vbCrLf
+        script += "     }, " & vbCrLf
+        script += "     title: { " & vbCrLf
+        script += "         text: '" & title & "', " & vbCrLf
+        script += "         align: 'left' " & vbCrLf
+        script += "     }, " & vbCrLf
+        script += "     xAxis: [{ " & vbCrLf
+        script += "         categories: [" & fecha & "], " & vbCrLf
+        script += "         crosshair: true, " & vbCrLf
+        script += " labels: { " & vbCrLf
+        script += "             rotation: -90, // Rotar las etiquetas a 90 grados (vertical) " & vbCrLf
+        script += "             align: 'right' // Alinear las etiquetas " & vbCrLf
+        script += "         } " & vbCrLf
+        script += "     }], " & vbCrLf
+        script += "     yAxis: [{ // Primary yAxis " & vbCrLf
+        script += "         labels: { " & vbCrLf
+        script += "             format: '{value}$', " & vbCrLf
+        script += "             style: { " & vbCrLf
+        script += "                 color: Highcharts.getOptions().colors[1] " & vbCrLf
+        script += "             } " & vbCrLf
+        script += "         }, " & vbCrLf
+        script += "         title: { " & vbCrLf
+        script += "             text: 'Egresos', " & vbCrLf
+        script += "             style: { " & vbCrLf
+        script += "                 color: Highcharts.getOptions().colors[1] " & vbCrLf
+        script += "             } " & vbCrLf
+        script += "         } " & vbCrLf
+        script += "     }, { // Secondary yAxis " & vbCrLf
+        script += "         title: { " & vbCrLf
+        script += "             text: 'Ingresos', " & vbCrLf
+        script += "             style: { " & vbCrLf
+        script += "                 color: Highcharts.getOptions().colors[0] " & vbCrLf
+        script += "             } " & vbCrLf
+        script += "         }, " & vbCrLf
+        script += "         labels: { " & vbCrLf
+        script += "             format: '{value} $', " & vbCrLf
+        script += "             style: { " & vbCrLf
+        script += "                 color: Highcharts.getOptions().colors[0] " & vbCrLf
+        script += "             } " & vbCrLf
+        script += "         }, " & vbCrLf
+        script += "         opposite: true " & vbCrLf
+        script += "     }], " & vbCrLf
+        script += "     tooltip: { " & vbCrLf
+        script += "         shared: true " & vbCrLf
+        script += "     }, " & vbCrLf
+        script += "     legend: { " & vbCrLf
+        script += "         align: 'left', " & vbCrLf
+        script += "         verticalAlign: 'top', " & vbCrLf
+        script += "         backgroundColor: " & vbCrLf
+        script += "             Highcharts.defaultOptions.legend.backgroundColor || // theme " & vbCrLf
+        script += "             'rgba(255,255,255,0.25)' " & vbCrLf
+        script += "     }, " & vbCrLf
+        script += "     series: [{ " & vbCrLf
+        script += "         name: 'Ingresos', " & vbCrLf
+        script += "         type: 'column', " & vbCrLf
+        script += "         yAxis: 1, " & vbCrLf
+        script += "         data: [" & ingresos & "], " & vbCrLf
+        script += "         tooltip: { " & vbCrLf
+        script += "             valueSuffix: ' $' " & vbCrLf
+        script += "         } " & vbCrLf
+        script += "  " & vbCrLf
+        script += "     }, { " & vbCrLf
+        script += "         name: 'Egresos', " & vbCrLf
+        script += "         type: 'spline', " & vbCrLf
+        script += "         data: [" & egresos & "], " & vbCrLf
+        script += "         tooltip: { " & vbCrLf
+        script += "             valueSuffix: '$' " & vbCrLf
+        script += "         } " & vbCrLf
+        script += "     }] " & vbCrLf
+        script += " }); " & vbCrLf
+        _page.ClientScript.RegisterStartupScript(_page.GetType(), "alerta", script, True)
+    End Sub
+
+    Public Sub graficaIngresosEgresos2(ByRef title As String, ByRef _page As Page, ByRef fecha As String, ByRef ingresos As String, ByRef egresos As String)
+        Dim script As String = ""
+        script += " Highcharts.chart('container', { " & vbCrLf
+        script += "     chart: { " & vbCrLf
+        script += "         type: 'bar' " & vbCrLf
+        script += "     }, " & vbCrLf
+        script += "     title: { " & vbCrLf
+        script += "         text: '" & title & "'" & vbCrLf
+        script += "     }, " & vbCrLf
+        script += "     xAxis: { " & vbCrLf
+        script += "         categories: [" & fecha & "], " & vbCrLf
+        script += "         title: { " & vbCrLf
+        script += "             text: null " & vbCrLf
+        script += "         }, " & vbCrLf
+        script += "         gridLineWidth: 1, " & vbCrLf
+        script += "         lineWidth: 0 " & vbCrLf
+        script += "     }, " & vbCrLf
+        script += "     yAxis: { " & vbCrLf
+        script += "         min: 0, " & vbCrLf
+        script += "         title: { " & vbCrLf
+        script += "             text: '$MXN', " & vbCrLf
+        script += "             align: 'high' " & vbCrLf
+        script += "         }, " & vbCrLf
+        script += "         labels: { " & vbCrLf
+        script += "             overflow: 'justify' " & vbCrLf
+        script += "         }, " & vbCrLf
+        script += "         gridLineWidth: 0 " & vbCrLf
+        script += "     }, " & vbCrLf
+        script += "     tooltip: { " & vbCrLf
+        script += "         valueSuffix: 'MXN' " & vbCrLf
+        script += "     }, " & vbCrLf
+        script += "     plotOptions: { " & vbCrLf
+        script += "         bar: { " & vbCrLf
+        script += "             borderRadius: '50%', " & vbCrLf
+        script += "             dataLabels: { " & vbCrLf
+        script += "                 enabled: true " & vbCrLf
+        script += "             }, " & vbCrLf
+        script += "             groupPadding: 0.1 " & vbCrLf
+        script += "         } " & vbCrLf
+        script += "     }, " & vbCrLf
+        script += "     legend: { " & vbCrLf
+        script += "         layout: 'vertical', " & vbCrLf
+        script += "         align: 'right', " & vbCrLf
+        script += "         verticalAlign: 'top', " & vbCrLf
+        script += "         x: -40, " & vbCrLf
+        script += "         y: 80, " & vbCrLf
+        script += "         floating: true, " & vbCrLf
+        script += "         borderWidth: 1, " & vbCrLf
+        script += "         backgroundColor: " & vbCrLf
+        script += "             Highcharts.defaultOptions.legend.backgroundColor || '#FFFFFF', " & vbCrLf
+        script += "         shadow: true " & vbCrLf
+        script += "     }, " & vbCrLf
+        script += "     credits: { " & vbCrLf
+        script += "         enabled: false " & vbCrLf
+        script += "     }, " & vbCrLf
+        script += "     series: [{ " & vbCrLf
+        script += "         name: 'Egresos', " & vbCrLf
+        script += "         data: [" & egresos & "] " & vbCrLf
+        script += "     }, { " & vbCrLf
+        script += "         name: 'Ingresos', " & vbCrLf
+        script += "         data: [" & ingresos & "] " & vbCrLf
+        script += "     }] " & vbCrLf
+        script += " }); " & vbCrLf
+        script += "  " & vbCrLf
+        _page.ClientScript.RegisterStartupScript(_page.GetType(), "alerta", script, True)
+    End Sub
+End Module
